@@ -22,7 +22,7 @@ export function Hero() {
         </p>
 
         <h1 className="max-w-4xl text-balance font-serif text-5xl leading-[0.95] tracking-tight sm:text-6xl lg:text-8xl">
-          Cinematic stories, <span className="italic text-primary">shot in light</span> &amp; shadow.
+          Cinematic stories, <span className="text-metallic italic">shot in light</span> &amp; shadow.
         </h1>
 
         <p className="mt-8 max-w-xl text-pretty text-base leading-relaxed text-muted-foreground lg:text-lg">

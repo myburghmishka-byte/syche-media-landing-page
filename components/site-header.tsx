@@ -33,8 +33,8 @@ export function SiteHeader() {
       <div className="mx-auto flex max-w-7xl items-center justify-between px-6 py-5 lg:px-10">
         <a href="#top" className="flex items-baseline gap-1 font-serif text-2xl leading-none tracking-tight">
           <span>Syche</span>
-          <span className="text-primary">Media</span>
-          <span className="text-primary">.</span>
+          <span className="text-metallic">Media</span>
+          <span className="text-metallic">.</span>
         </a>
 
         <nav className="hidden items-center gap-8 md:flex">

@@ -1,6 +1,6 @@
 import { Analytics } from '@vercel/analytics/next'
 import type { Metadata, Viewport } from 'next'
-import { Geist, Geist_Mono, Instrument_Serif } from 'next/font/google'
+import { Geist, Geist_Mono, Cormorant_Garamond } from 'next/font/google'
 import './globals.css'
 
 const geistSans = Geist({ variable: '--font-geist-sans', subsets: ['latin'] })
@@ -8,9 +8,9 @@ const geistMono = Geist_Mono({
   variable: '--font-geist-mono',
   subsets: ['latin'],
 })
-const instrumentSerif = Instrument_Serif({
-  variable: '--font-instrument-serif',
-  weight: '400',
+const cormorant = Cormorant_Garamond({
+  variable: '--font-cormorant',
+  weight: ['300', '400', '500', '600'],
   style: ['normal', 'italic'],
   subsets: ['latin'],
 })
@@ -52,7 +52,7 @@ export default function RootLayout({
   return (
     <html
       lang="en"
-      className={`dark bg-background ${geistSans.variable} ${geistMono.variable} ${instrumentSerif.variable}`}
+      className={`dark bg-background ${geistSans.variable} ${geistMono.variable} ${cormorant.variable}`}
     >
       <body className="font-sans antialiased">
         {children}
